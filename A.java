@@ -1,10 +1,10 @@
 public class A {
     
-    private B dependence = null;
+    private B circularDependence = null;
     private String myName = null;
 
     public A () {
-        dependence = new B();   
+        circularDependence = new B();   
         myName = "I'm A class";
     }
 
