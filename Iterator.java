@@ -37,8 +37,8 @@ public class Iterator {
             System.out.println(iterator.value());
         }
 
-        // for ( ; !iterator.over(); iterator.prev() ) {
-        //     System.out.println(iterator.value());
-        // }
+        for ( ; !iterator.over(); iterator.prev() ) {
+            System.out.println(iterator.value());
+        }
     }
 }
