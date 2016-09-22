@@ -15,6 +15,7 @@ public class Shape {
 
     public static void main(String [] args) {
         Shape shape = new Shape();
+        
         Rectangle rectangle = new Rectangle();
         Triangle triangle = new Triangle();
 

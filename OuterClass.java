@@ -7,24 +7,31 @@ class OuterClass {
         innerClass.getValue();
     }
 
+    public int getValue() {
+        // accessing private variable from outer class
+        return this.value;
+    }
+
     // inner class declarataion
     private class InnerClass {
-        // private int value = 24;
+        private int value = 24;
         
-        public void getValue() {
+        public int getValue() {
         // accessing private variable from outer class
-            System.out.println("value of value: " + value);
+            return value;
         }
     }
 
     public static void main(String[] args) {
         // Creating outer class instance
         OuterClass outerclass = new OuterClass();
+
+        System.out.println("value of value: " +  outerclass.getValue());
         
         // Creating inner class instance
         OuterClass.InnerClass innerclass = outerclass.new InnerClass();
 
         // Classing inner class method
-        innerclass.getValue();
+        System.out.println("value of value: " +  innerclass.getValue());
     }
 }

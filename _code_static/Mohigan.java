@@ -15,7 +15,7 @@ public class Mohigan {
         return last;
     }
     public String toString() {
-        return "ID: " + getID() + " / Last: " + getLast().getID();
+        return "selfId: " + getID() + " / Last: " + getLast().getID();
     }
 
      public static void main(String[] args) {

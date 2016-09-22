@@ -3,9 +3,8 @@ import java.io.*;
 class ExceptionExample {
 
     public InputStream fallingBlocks() throws FileNotFoundException {
-        String fileName = "./README.txt";
+        String fileName = "./_README.txt";
         InputStream inputStream = new FileInputStream(fileName);
-
         return inputStream;
     }
 
@@ -15,7 +14,7 @@ class ExceptionExample {
             fallingBlocks();
             System.out.println("It works!!!");
         } catch (FileNotFoundException ee) {
-            System.out.println("Handle the exception");
+            System.out.println("Handle the exception: " +  ee);
             // Handle the exception
         } finally {
             System.out.println("finally block is always executed. cleanup: closing connection, stream etc.");
@@ -25,12 +24,8 @@ class ExceptionExample {
     }
 
     public static void main(String[] args) {
-        ExceptionExample example = new ExceptionExample();
-
-        example.foo();
+        new ExceptionExample().foo();
     }
 }
-
-
 
 

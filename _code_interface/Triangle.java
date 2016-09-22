@@ -24,6 +24,6 @@
 
     public String toString() {
         return this.getClass().getName() + " Color: " 
-        + getColor() + " and Perimeter " + getPerimeter();
+        + getColor() + " and Perimeter :" + getPerimeter();
     }
 }

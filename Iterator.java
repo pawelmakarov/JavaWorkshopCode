@@ -33,9 +33,9 @@ public class Iterator {
     public static void main(String[] args) {
         Iterator iterator = new Iterator(10, 2, 4);
 
-        for ( ; !iterator.over(); iterator.next() ) {
-            System.out.println(iterator.value());
-        }
+        // for ( ; !iterator.over(); iterator.next() ) {
+        //     System.out.println(iterator.value());
+        // }
 
         for ( ; !iterator.over(); iterator.prev() ) {
             System.out.println(iterator.value());

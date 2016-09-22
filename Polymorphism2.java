@@ -1,5 +1,7 @@
 public class Polymorphism2 {
 
+    public Polymorphism2() {}
+
     public String toString() {
         return this.getClass().getName();
     }

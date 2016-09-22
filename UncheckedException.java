@@ -11,5 +11,3 @@ public class UncheckedException {
         String value = (String)object;      //This throws ClassCastException.
     }
 }
-
-
