@@ -1,0 +1,1 @@
+public final class ToMuchOfPetrol extends Exception {}
