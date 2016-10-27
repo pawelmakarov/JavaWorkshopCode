@@ -14,7 +14,6 @@ public class Unit {
     
     public void doAttack(Unit unit) throws Throwable {
         // implementation
-        System.out.println("Attack!");
     }
 
     public void setHitPoints(int damage) {
@@ -26,12 +25,12 @@ public class Unit {
     }
 
     public int getHitPoints() {
-        return hitPoints;
+        return this.hitPoints;
     }
     public int getAttack() {
-        return attack;
+        return this.attack;
     }
     public boolean isDead() {
-        return dead;
+        return this.dead;
     }
 }

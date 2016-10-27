@@ -2,6 +2,7 @@ public class CMain {
 
     public static void main(String[] args) throws Throwable {
         Point point = new Point(4.4, 5.5);
+        
         Car car1 = new Car();
         Car car2 = new Car("BMW", 60, 30, 3.8, point);
 

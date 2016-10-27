@@ -9,10 +9,10 @@ public class Point {
     }
 
     public double distance(Point other) {
-        return Math.hypot(x-other.x, y-other.y);
+        return Math.hypot(this.x-other.x, this.y-other.y);
     }
     public String toString() {
-        return "(" + x + ", " + y + ")";
+        return "(" + this.x + ", " + this.y + ")";
     }
 
     public static void main(String[] args) {

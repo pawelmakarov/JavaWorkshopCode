@@ -20,9 +20,9 @@ public class Paper {
     }
 
     public int getMaxAmount() {
-        return maxAmount;
+        return this.maxAmount;
     }
     public int currentAmount() {
-        return currentAmount;
+        return this.currentAmount;
     }
 }

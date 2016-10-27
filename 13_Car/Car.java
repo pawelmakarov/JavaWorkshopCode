@@ -28,18 +28,18 @@ public class Car extends Object {
         return "Mark: " + getMark() + "\n" + "Location: " + getLocation() + "\n" + "Consumption: " + getConsumption() + "\n" + "Pertol: " + getCurrentAmount();
     }
     public String getMark() {
-        return mark;
+        return this.mark;
     }
     public int getMaxCapacity() {
-        return maxCapacity;
+        return this.maxCapacity;
     }
     public int getCurrentAmount() {
-        return currentAmount;
+        return this.currentAmount;
     }
     public double getConsumption() {
-        return consumption;
+        return this.consumption;
     }
     public Point getLocation() {
-        return location;
+        return this.location;
     }
 }

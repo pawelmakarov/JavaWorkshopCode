@@ -13,20 +13,20 @@ public class Point extends Object {
         this.y = y;
     }
     public double getX() {
-        return x;
+        return this.x;
     }
     public double getY() {
-        return y;
+        return this.y;
     }
     public double distance(Point other) {
-        return hypot(x-other.x, y-other.y); 
+        return hypot(this.x-other.x, this.y-other.y); 
     }
 
     public boolean equals(Point other) {
-        return x == other.x && y == other.y;
+        // implementation
     }
 
     public String toString() {
-        return "(" + x + ", " + y + ")";
+        return "(" + this.x + ", " + this.y + ")";
     }
 }

@@ -24,9 +24,9 @@ public class Pen {
         return  "Current capacity of ink: " + getCurrentCapacity();
     }
      public int getCurrentCapacity() {
-        return currentCapacity;
+        return this.currentCapacity;
     }
     public int getMaxCapacity() {
-        return maxCapacity;
+        return this.maxCapacity;
     }
 }
